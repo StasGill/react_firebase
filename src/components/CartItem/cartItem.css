@@ -32,3 +32,9 @@
     font-size: 25px;
     font-weight: bold;
 }
+
+@media (max-width: 700px) {
+    .item_img{
+       height: 140px;
+    }
+  }

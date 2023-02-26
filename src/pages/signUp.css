@@ -3,7 +3,7 @@
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    padding-bottom: 16px;
+    padding: 16px 8px;
 }
 
 .overlay{
@@ -18,7 +18,7 @@
 }
 
 .signUp{
-    width: 600px;
+    max-width: 600px;
     height: 500px;
     margin: 0 auto;
     background-color: white;

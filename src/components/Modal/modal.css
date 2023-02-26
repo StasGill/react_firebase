@@ -35,3 +35,25 @@ border: 1px solid grey;
     font-weight: bold;
     font-size: 20px;
 }
+
+.modal_close{
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    cursor: pointer;
+}
+
+.modal_close > svg{
+    fill:white
+}
+
+@media (max-width: 600px) {
+    .modal_close{
+        top: 32px;
+        right: 20px; 
+    }
+
+    .modal_close > svg{
+        fill:black;
+    }
+  }

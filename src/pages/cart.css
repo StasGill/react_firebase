@@ -20,11 +20,13 @@
 
 .card_order{
     position: relative;
-    max-width: 1100px;
+    max-width: 1200px;
+    min-width: 320px;
     display: flex;
     justify-content: space-around;
     margin: 0 auto;
     flex-wrap: wrap;
+    padding: 16px 8px;
 }
 
 /* .card_form{

@@ -92,12 +92,12 @@ export const Dashboard = () => {
         )}
       </div>
       {editMode && (
-        <Modal>
+        <Modal onClick={setEditMode}>
           <UpdateForm item={product} setEditMode={setEditMode} />
         </Modal>
       )}
       {createMode && (
-        <Modal>
+        <Modal onClick={setCreateMode}>
           <UpdateForm item={mock} setEditMode={setCreateMode} createMode />
         </Modal>
       )}
