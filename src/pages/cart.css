@@ -1,0 +1,35 @@
+.empty_cart{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+
+.card_input{
+    max-width: 400px;
+    min-width: 320px;
+    height: 50px;
+    display: block;
+    margin: 0 auto 20px auto;
+    text-align: center;
+    border-radius: 8px;
+    border: 1px grey solid;
+    font-size: 20px;
+}
+
+.card_order{
+    position: relative;
+    max-width: 1100px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+/* .card_form{
+    overflow: auto;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 5%;
+} */

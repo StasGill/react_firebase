@@ -1,0 +1,14 @@
+.footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Pacifico', cursive;
+    padding: 16px 0;
+}
+
+.footer p {
+    margin-top: 0;
+}
